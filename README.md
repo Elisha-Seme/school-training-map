@@ -244,6 +244,7 @@ school-training-map/
 │   └── data/
 │       ├── schools.geojson           # Schools data
 │       ├── cluster_centers.geojson   # Centers data
+        ├── kenya_counties.geojson   # Overlay Map
 │       └── schools_with_clusters.csv # Raw data
 ├── package.json              # Dependencies
 ├── tsconfig.json             # TypeScript config
