@@ -1,0 +1,534 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.534550949999996,
+          0.5608152750000001
+        ]
+      },
+      "properties": {
+        "cluster_id": 0,
+        "num_schools": 4,
+        "avg_distance": 4.15,
+        "max_distance": 5.57,
+        "schools": [
+          "Namachanja and Musikoma Secondary Schools",
+          "St Kizito Mayanja Secondary School",
+          "Bishop Eliud Wabukala Secondary School",
+          "Musikoma Secondary Schools"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4788498,
+          2.1253601
+        ]
+      },
+      "properties": {
+        "cluster_id": 1,
+        "num_schools": 1,
+        "avg_distance": 0.0,
+        "max_distance": 0.0,
+        "schools": [
+          "Kalemungorok Mixed Day Secondary schoo"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.0208151,
+          -0.5036955
+        ]
+      },
+      "properties": {
+        "cluster_id": 2,
+        "num_schools": 1,
+        "avg_distance": 0.0,
+        "max_distance": 0.0,
+        "schools": [
+          "Kiliwa Secondary school"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.71085943444102,
+          0.6725926533183679
+        ]
+      },
+      "properties": {
+        "cluster_id": 3,
+        "num_schools": 7,
+        "avg_distance": 26.05,
+        "max_distance": 45.06,
+        "schools": [
+          "Senetwo Secondary School",
+          "Kaptimbor Secondary School",
+          "Tiriondonin Secondary School",
+          "Kaptimbor Secondary School",
+          "Chemolingot Mixed Secondary School",
+          "Bhakita Mixed Day Secondary School",
+          "Koita Secondary School"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.3143649,
+          1.0071656
+        ]
+      },
+      "properties": {
+        "cluster_id": 4,
+        "num_schools": 1,
+        "avg_distance": 0.0,
+        "max_distance": 0.0,
+        "schools": [
+          "Wamba mixed day sec school"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.79744485714286,
+          1.184666757142857
+        ]
+      },
+      "properties": {
+        "cluster_id": 5,
+        "num_schools": 7,
+        "avg_distance": 22.49,
+        "max_distance": 36.93,
+        "schools": [
+          "Mwangaza mixed day sec school",
+          "Maralal mixed day sec school",
+          "Loikas mixed day sec school",
+          "Ngari mixed day sec school",
+          "Nachola mixed day sec school",
+          "Marti mixed day & boarding sec school",
+          "Lodungokwek mixed"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.646478099999996,
+          0.8001555666666667
+        ]
+      },
+      "properties": {
+        "cluster_id": 6,
+        "num_schools": 3,
+        "avg_distance": 7.35,
+        "max_distance": 10.69,
+        "schools": [
+          "Bunang'eni Junior School",
+          "Friends Chebukwabi Secondary School",
+          "St John Chepyuk Secondary School"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.55651543333334,
+          1.8542150333333334
+        ]
+      },
+      "properties": {
+        "cluster_id": 7,
+        "num_schools": 3,
+        "avg_distance": 34.77,
+        "max_distance": 52.15,
+        "schools": [
+          "Lokwii Mixed Day Secondary",
+          "Baragoi mixed day sec school",
+          "Nalingangor mixed day sec school"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.46120407819754,
+          -0.8287072779899964
+        ]
+      },
+      "properties": {
+        "cluster_id": 8,
+        "num_schools": 1,
+        "avg_distance": 0.0,
+        "max_distance": 0.0,
+        "schools": [
+          "Sigowet Secondary School"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.97001949395562,
+          0.1474342226625071
+        ]
+      },
+      "properties": {
+        "cluster_id": 9,
+        "num_schools": 4,
+        "avg_distance": 21.15,
+        "max_distance": 36.22,
+        "schools": [
+          "Mogotio Township SS",
+          "Marigat Intergrated",
+          "Sagasagik Secondary School",
+          "Oldebess Secondary School"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.08731614107387,
+          0.13945198076186266
+        ]
+      },
+      "properties": {
+        "cluster_id": 10,
+        "num_schools": 9,
+        "avg_distance": 14.73,
+        "max_distance": 26.87,
+        "schools": [
+          "Tegat Secondary School",
+          "Kamobo Secondary School",
+          "Kiptuya Secondry School",
+          "Namgoi Secondary School",
+          "Koitabut Secondary School",
+          "Kamimei Secondary School",
+          "Jean Marie Seroney",
+          "Tigityo Secondary School",
+          "Kabutie Secondary School"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.994751,
+          1.5327973
+        ]
+      },
+      "properties": {
+        "cluster_id": 11,
+        "num_schools": 1,
+        "avg_distance": 0.0,
+        "max_distance": 0.0,
+        "schools": [
+          "Alale Mixed Secondary School"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.64239058571429,
+          -0.49225127142857145
+        ]
+      },
+      "properties": {
+        "cluster_id": 12,
+        "num_schools": 7,
+        "avg_distance": 16.18,
+        "max_distance": 27.32,
+        "schools": [
+          "Lala Mixed Secondary School",
+          "Akwakra Mixed Secondary School",
+          "Got Rateng Mixed Secondary school",
+          "Wikoteng\u00e2\u20ac\u2122 Mixed Secondary School",
+          "Nyalenda Mixed Secondary school",
+          "Kowuor Mixed Swcondary school",
+          "Otaro Mixed Secondary"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.10563866759654,
+          -2.536928302421907
+        ]
+      },
+      "properties": {
+        "cluster_id": 13,
+        "num_schools": 5,
+        "avg_distance": 59.02,
+        "max_distance": 83.14,
+        "schools": [
+          "Kimana Mixed Secondary School",
+          "Masimba Secondary School",
+          "Entarara Secondary School",
+          "Torosei Secondary School",
+          "Namanga Secondary School"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.71339954,
+          3.2668918400000004
+        ]
+      },
+      "properties": {
+        "cluster_id": 14,
+        "num_schools": 5,
+        "avg_distance": 22.97,
+        "max_distance": 44.34,
+        "schools": [
+          "Loyo Mixed Day Secondary",
+          "St. Kevin Secondary - Turkana Central",
+          "SA Nawoitorong Mixed Day Secondary",
+          "Immaculate Conception",
+          "RCEA Korinyang Mixed Day Secondary"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.679549749120355,
+          -0.0397752806459859
+        ]
+      },
+      "properties": {
+        "cluster_id": 15,
+        "num_schools": 1,
+        "avg_distance": 0.0,
+        "max_distance": 0.0,
+        "schools": [
+          "Maji Mazuri R.C Mixed Day Secondary School"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.65454331366787,
+          -1.4090047994218184
+        ]
+      },
+      "properties": {
+        "cluster_id": 16,
+        "num_schools": 5,
+        "avg_distance": 33.91,
+        "max_distance": 68.23,
+        "schools": [
+          "Nkaimurunya Secondary School",
+          "Keekonyokie Mixed Secondary School",
+          "St. Patrick's Kajiado Township Sec",
+          "Kitengela Magereza",
+          "Kibiko Secondary School"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.24723000779334,
+          -0.8509301487034145
+        ]
+      },
+      "properties": {
+        "cluster_id": 17,
+        "num_schools": 3,
+        "avg_distance": 5.91,
+        "max_distance": 6.95,
+        "schools": [
+          "Siongiroi Secondary School",
+          "Tebeswet Secondary School",
+          "Kapsangaru Secondary School"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.09699338888889,
+          -1.4770264333333334
+        ]
+      },
+      "properties": {
+        "cluster_id": 18,
+        "num_schools": 9,
+        "avg_distance": 22.9,
+        "max_distance": 64.64,
+        "schools": [
+          "Kyamboo Secondary School",
+          "Kangii Secondary Scgool",
+          "Ngiluni Secondary School",
+          "Kyanika Secondary School",
+          "Kavia Secondary School",
+          "Kikuu Secondary school",
+          "Simisi Secondary school",
+          "St.Catejan Kyaango",
+          "Yumbisye Secondary School"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.208518133333335,
+          1.2441200666666665
+        ]
+      },
+      "properties": {
+        "cluster_id": 19,
+        "num_schools": 6,
+        "avg_distance": 10.31,
+        "max_distance": 22.0,
+        "schools": [
+          "Kapsangar Mixed  Secondary School",
+          "Talau Mixed  Secondary School",
+          "Chepareria Mixed Secondary School",
+          "Chepkono Mixed Secondary School",
+          "Mnagei Mixed Secondary School",
+          "Ortum Mixed  Secondary School"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.27345296666667,
+          -0.6800155999999999
+        ]
+      },
+      "properties": {
+        "cluster_id": 20,
+        "num_schools": 3,
+        "avg_distance": 16.98,
+        "max_distance": 21.56,
+        "schools": [
+          "Ojode Pala Mixed Secondary School",
+          "Ogango Mixed Secondary School",
+          "God Oloo Mixed Secondary School"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.86760420834372,
+          0.6466911427602843
+        ]
+      },
+      "properties": {
+        "cluster_id": 21,
+        "num_schools": 4,
+        "avg_distance": 16.87,
+        "max_distance": 23.0,
+        "schools": [
+          "Olmaroroi Secondary School",
+          "Tongaren DEB Junior School",
+          "Wabukhonyi SA Secondary School",
+          "Nabuyole Secondary School"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4333832,
+          1.4922464666666666
+        ]
+      },
+      "properties": {
+        "cluster_id": 22,
+        "num_schools": 3,
+        "avg_distance": 15.12,
+        "max_distance": 18.64,
+        "schools": [
+          "Lomut Mixed Secondary School",
+          "Sobukwo Mixed Secondary School",
+          "RCEA Marichpass Mixed Secondary School"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.261046600941526,
+          -0.6291346864352565
+        ]
+      },
+      "properties": {
+        "cluster_id": 23,
+        "num_schools": 4,
+        "avg_distance": 9.82,
+        "max_distance": 14.98,
+        "schools": [
+          "Kamogoso Secondary School",
+          "Kabiangek Secondary School",
+          "Sironet secondary School",
+          "Simot Secondary School"
+        ]
+      }
+    }
+  ]
+}

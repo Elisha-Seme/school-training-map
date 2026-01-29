@@ -1,0 +1,1848 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.95783700085272,
+          -0.0183939185568182
+        ]
+      },
+      "properties": {
+        "id": 0,
+        "name": "Mogotio Township SS",
+        "county": "Baringo County",
+        "sub_county": "Mogotio",
+        "cluster_id": 9,
+        "distance_to_cluster_center": 18.49,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.82522218283366,
+          0.575416010660691
+        ]
+      },
+      "properties": {
+        "id": 1,
+        "name": "Senetwo Secondary School",
+        "county": "Baringo County",
+        "sub_county": "Baringo Central",
+        "cluster_id": 3,
+        "distance_to_cluster_center": 16.69,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.73464657261704,
+          0.4984420403092475
+        ]
+      },
+      "properties": {
+        "id": 2,
+        "name": "Kaptimbor Secondary School",
+        "county": "Baringo County",
+        "sub_county": "Baringo Central",
+        "cluster_id": 3,
+        "distance_to_cluster_center": 19.54,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.98209259240108,
+          0.472946967447425
+        ]
+      },
+      "properties": {
+        "id": 3,
+        "name": "Marigat Intergrated",
+        "county": "Baringo County",
+        "sub_county": "Marigat",
+        "cluster_id": 9,
+        "distance_to_cluster_center": 36.22,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.679549749120355,
+          -0.0397752806459859
+        ]
+      },
+      "properties": {
+        "id": 4,
+        "name": "Maji Mazuri R.C Mixed Day Secondary School",
+        "county": "Baringo County",
+        "sub_county": "Koibatek",
+        "cluster_id": 15,
+        "distance_to_cluster_center": 0.0,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.862585653997705,
+          0.0822669764132123
+        ]
+      },
+      "properties": {
+        "id": 5,
+        "name": "Sagasagik Secondary School",
+        "county": "Baringo County",
+        "sub_county": "Mogotio",
+        "cluster_id": 9,
+        "distance_to_cluster_center": 13.97,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.766694192014775,
+          0.6500133325693297
+        ]
+      },
+      "properties": {
+        "id": 6,
+        "name": "Tiriondonin Secondary School",
+        "county": "Baringo County",
+        "sub_county": "Baringo North",
+        "cluster_id": 3,
+        "distance_to_cluster_center": 6.7,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.73451614964479,
+          0.498391524775206
+        ]
+      },
+      "properties": {
+        "id": 7,
+        "name": "Kaptimbor Secondary School",
+        "county": "Baringo County",
+        "sub_county": "Baringo Central",
+        "cluster_id": 3,
+        "distance_to_cluster_center": 19.55,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.97073454281554,
+          0.9835091807279436
+        ]
+      },
+      "properties": {
+        "id": 8,
+        "name": "Chemolingot Mixed Secondary School",
+        "county": "Baringo County",
+        "sub_county": "Marigat",
+        "cluster_id": 3,
+        "distance_to_cluster_center": 45.06,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.57389140116128,
+          0.952097484186158
+        ]
+      },
+      "properties": {
+        "id": 9,
+        "name": "Bhakita Mixed Day Secondary School",
+        "county": "Baringo County",
+        "sub_county": "Koibatek",
+        "cluster_id": 3,
+        "distance_to_cluster_center": 34.61,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.46120407819754,
+          -0.8287072779899964
+        ]
+      },
+      "properties": {
+        "id": 10,
+        "name": "Sigowet Secondary School",
+        "county": "Bomet County",
+        "sub_county": "Bomet East sub county",
+        "cluster_id": 8,
+        "distance_to_cluster_center": 0.0,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.07756272857096,
+          0.0529168653462093
+        ]
+      },
+      "properties": {
+        "id": 11,
+        "name": "Oldebess Secondary School",
+        "county": "Bomet County",
+        "sub_county": "Sotik Sub county",
+        "cluster_id": 9,
+        "distance_to_cluster_center": 15.92,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.224860809277764,
+          -0.9092989269074272
+        ]
+      },
+      "properties": {
+        "id": 12,
+        "name": "Siongiroi Secondary School",
+        "county": "Bomet County",
+        "sub_county": "Chepalungu sub county",
+        "cluster_id": 17,
+        "distance_to_cluster_center": 6.95,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.262552853998095,
+          -0.6949527542283747
+        ]
+      },
+      "properties": {
+        "id": 13,
+        "name": "Kamogoso Secondary School",
+        "county": "Bomet County",
+        "sub_county": "Bomet Central sub county",
+        "cluster_id": 23,
+        "distance_to_cluster_center": 7.32,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.20629879519993,
+          -0.5832918002087798
+        ]
+      },
+      "properties": {
+        "id": 14,
+        "name": "Kabiangek Secondary School",
+        "county": "Bomet County",
+        "sub_county": "Konoin Sub County",
+        "cluster_id": 23,
+        "distance_to_cluster_center": 7.94,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.20502375456806,
+          -0.6880151913038719
+        ]
+      },
+      "properties": {
+        "id": 15,
+        "name": "Sironet secondary School",
+        "county": "Bomet County",
+        "sub_county": "Sotik Sub county",
+        "cluster_id": 23,
+        "distance_to_cluster_center": 9.04,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.285332517775494,
+          -0.8492156536657899
+        ]
+      },
+      "properties": {
+        "id": 16,
+        "name": "Tebeswet Secondary School",
+        "county": "Bomet County",
+        "sub_county": "Chepalungu sub county",
+        "cluster_id": 17,
+        "distance_to_cluster_center": 4.24,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.23149669632675,
+          -0.7942758655370268
+        ]
+      },
+      "properties": {
+        "id": 17,
+        "name": "Kapsangaru Secondary School",
+        "county": "Bomet County",
+        "sub_county": "Bomet Central sub county",
+        "cluster_id": 17,
+        "distance_to_cluster_center": 6.54,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.370311,
+          0.550279
+        ]
+      },
+      "properties": {
+        "id": 18,
+        "name": "Koita Secondary School",
+        "county": "Bomet County",
+        "sub_county": "Bomet East sub county",
+        "cluster_id": 3,
+        "distance_to_cluster_center": 40.23,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.370311,
+          -0.550279
+        ]
+      },
+      "properties": {
+        "id": 19,
+        "name": "Simot Secondary School",
+        "county": "Bomet County",
+        "sub_county": "Konoin Sub County",
+        "cluster_id": 23,
+        "distance_to_cluster_center": 14.98,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.53561,
+          -2.80248
+        ]
+      },
+      "properties": {
+        "id": 20,
+        "name": "Kimana Mixed Secondary School",
+        "county": "Kajiado County",
+        "sub_county": "Loitokitok/Kajiado South",
+        "cluster_id": 13,
+        "distance_to_cluster_center": 56.15,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.12907,
+          -2.10328
+        ]
+      },
+      "properties": {
+        "id": 21,
+        "name": "Masimba Secondary School",
+        "county": "Kajiado County",
+        "sub_county": "Mashuuru",
+        "cluster_id": 13,
+        "distance_to_cluster_center": 48.29,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.717311,
+          -1.365746
+        ]
+      },
+      "properties": {
+        "id": 22,
+        "name": "Nkaimurunya Secondary School",
+        "county": "Kajiado County",
+        "sub_county": "Kajiado North",
+        "cluster_id": 16,
+        "distance_to_cluster_center": 8.47,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.16274056833939,
+          -1.041904997109092
+        ]
+      },
+      "properties": {
+        "id": 23,
+        "name": "Keekonyokie Mixed Secondary School",
+        "county": "Kajiado County",
+        "sub_county": "Kajiado West",
+        "cluster_id": 16,
+        "distance_to_cluster_center": 68.23,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.788451,
+          -1.842609
+        ]
+      },
+      "properties": {
+        "id": 24,
+        "name": "St. Patrick's Kajiado Township Sec",
+        "county": "Kajiado County",
+        "sub_county": "Kajiado Central",
+        "cluster_id": 16,
+        "distance_to_cluster_center": 50.46,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6242,
+          -2.99417
+        ]
+      },
+      "properties": {
+        "id": 25,
+        "name": "Entarara Secondary School",
+        "county": "Kajiado County",
+        "sub_county": "Loitokitok/Kajiado South",
+        "cluster_id": 13,
+        "distance_to_cluster_center": 76.83,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.4095,
+          -2.262508
+        ]
+      },
+      "properties": {
+        "id": 26,
+        "name": "Torosei Secondary School",
+        "county": "Kajiado County",
+        "sub_county": "Elangata Wuas",
+        "cluster_id": 13,
+        "distance_to_cluster_center": 83.14,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.96667,
+          -1.45
+        ]
+      },
+      "properties": {
+        "id": 27,
+        "name": "Kitengela Magereza",
+        "county": "Kajiado County",
+        "sub_county": "Isinya",
+        "cluster_id": 16,
+        "distance_to_cluster_center": 34.99,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.637544,
+          -1.344764
+        ]
+      },
+      "properties": {
+        "id": 28,
+        "name": "Kibiko Secondary School",
+        "county": "Kajiado County",
+        "sub_county": "Kajiado West",
+        "cluster_id": 16,
+        "distance_to_cluster_center": 7.39,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.82981333798267,
+          -2.522203512109536
+        ]
+      },
+      "properties": {
+        "id": 29,
+        "name": "Namanga Secondary School",
+        "county": "Kajiado County",
+        "sub_county": "Oloililai",
+        "cluster_id": 13,
+        "distance_to_cluster_center": 30.68,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.09603,
+          0.20122
+        ]
+      },
+      "properties": {
+        "id": 30,
+        "name": "Tegat Secondary School",
+        "county": "Nandi County",
+        "sub_county": "Emgwen",
+        "cluster_id": 10,
+        "distance_to_cluster_center": 6.94,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.07679,
+          0.19194
+        ]
+      },
+      "properties": {
+        "id": 31,
+        "name": "Kamobo Secondary School",
+        "county": "Nandi County",
+        "sub_county": "Emgwen",
+        "cluster_id": 10,
+        "distance_to_cluster_center": 5.95,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.0008,
+          0.20245
+        ]
+      },
+      "properties": {
+        "id": 32,
+        "name": "Kiptuya Secondry School",
+        "county": "Nandi County",
+        "sub_county": "CHESUMEI",
+        "cluster_id": 10,
+        "distance_to_cluster_center": 11.9,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.11807,
+          0.20575
+        ]
+      },
+      "properties": {
+        "id": 33,
+        "name": "Namgoi Secondary School",
+        "county": "Nandi County",
+        "sub_county": "CHESUMEI",
+        "cluster_id": 10,
+        "distance_to_cluster_center": 8.13,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.880571277012265,
+          0.0810053070228613
+        ]
+      },
+      "properties": {
+        "id": 34,
+        "name": "Koitabut Secondary School",
+        "county": "Nandi County",
+        "sub_county": "Aldai",
+        "cluster_id": 10,
+        "distance_to_cluster_center": 23.89,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.916827,
+          0.067054
+        ]
+      },
+      "properties": {
+        "id": 35,
+        "name": "Kamimei Secondary School",
+        "county": "Nandi County",
+        "sub_county": "Aldai",
+        "cluster_id": 10,
+        "distance_to_cluster_center": 20.6,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.176389,
+          0.100278
+        ]
+      },
+      "properties": {
+        "id": 36,
+        "name": "Jean Marie Seroney",
+        "county": "Nandi County",
+        "sub_county": "Nandihills",
+        "cluster_id": 10,
+        "distance_to_cluster_center": 10.82,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.23242235214759,
+          0.2005657738088735
+        ]
+      },
+      "properties": {
+        "id": 37,
+        "name": "Tigityo Secondary School",
+        "county": "Nandi County",
+        "sub_county": "Nandihills",
+        "cluster_id": 10,
+        "distance_to_cluster_center": 17.51,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.94564463337489,
+          0.4551354710411373
+        ]
+      },
+      "properties": {
+        "id": 38,
+        "name": "Olmaroroi Secondary School",
+        "county": "Nandi County",
+        "sub_county": "Mosop",
+        "cluster_id": 21,
+        "distance_to_cluster_center": 23.0,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.28794564050494,
+          0.0048047460250291
+        ]
+      },
+      "properties": {
+        "id": 39,
+        "name": "Kabutie Secondary School",
+        "county": "Nandi County",
+        "sub_county": "TINDERET",
+        "cluster_id": 10,
+        "distance_to_cluster_center": 26.87,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4788498,
+          2.1253601
+        ]
+      },
+      "properties": {
+        "id": 40,
+        "name": "Kalemungorok Mixed Day Secondary schoo",
+        "county": "Turkana County",
+        "sub_county": "Aroo",
+        "cluster_id": 1,
+        "distance_to_cluster_center": 0.0,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.6761741,
+          3.1567431
+        ]
+      },
+      "properties": {
+        "id": 41,
+        "name": "Loyo Mixed Day Secondary",
+        "county": "Turkana County",
+        "sub_county": "Turkana South",
+        "cluster_id": 14,
+        "distance_to_cluster_center": 12.93,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.1056457,
+          1.9842739
+        ]
+      },
+      "properties": {
+        "id": 42,
+        "name": "Lokwii Mixed Day Secondary",
+        "county": "Turkana County",
+        "sub_county": "Turkana East",
+        "cluster_id": 7,
+        "distance_to_cluster_center": 52.15,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.0404049,
+          3.4959044
+        ]
+      },
+      "properties": {
+        "id": 43,
+        "name": "St. Kevin Secondary - Turkana Central",
+        "county": "Turkana County",
+        "sub_county": "Turkana Central",
+        "cluster_id": 14,
+        "distance_to_cluster_center": 44.34,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.7188463,
+          3.0573163
+        ]
+      },
+      "properties": {
+        "id": 44,
+        "name": "SA Nawoitorong Mixed Day Secondary",
+        "county": "Turkana County",
+        "sub_county": "Turkana Central",
+        "cluster_id": 14,
+        "distance_to_cluster_center": 23.31,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5657862,
+          3.3122477
+        ]
+      },
+      "properties": {
+        "id": 45,
+        "name": "Immaculate Conception",
+        "county": "Turkana County",
+        "sub_county": "Aroo",
+        "cluster_id": 14,
+        "distance_to_cluster_center": 17.15,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5657862,
+          3.3122477
+        ]
+      },
+      "properties": {
+        "id": 46,
+        "name": "RCEA Korinyang Mixed Day Secondary",
+        "county": "Turkana County",
+        "sub_county": "Aroo",
+        "cluster_id": 14,
+        "distance_to_cluster_center": 17.15,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.443799,
+          -0.5551603
+        ]
+      },
+      "properties": {
+        "id": 47,
+        "name": "Lala Mixed Secondary School",
+        "county": "Homabay County",
+        "sub_county": "Homa Bay",
+        "cluster_id": 12,
+        "distance_to_cluster_center": 23.16,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7263107,
+          -0.398962
+        ]
+      },
+      "properties": {
+        "id": 48,
+        "name": "Akwakra Mixed Secondary School",
+        "county": "Homabay County",
+        "sub_county": "Rachuonyo North",
+        "cluster_id": 12,
+        "distance_to_cluster_center": 13.95,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.3671172,
+          -0.7298697
+        ]
+      },
+      "properties": {
+        "id": 49,
+        "name": "Ojode Pala Mixed Secondary School",
+        "county": "Homabay County",
+        "sub_county": "Ndhiwa",
+        "cluster_id": 20,
+        "distance_to_cluster_center": 11.8,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.3532417,
+          -0.5435104
+        ]
+      },
+      "properties": {
+        "id": 50,
+        "name": "Ogango Mixed Secondary School",
+        "county": "Homabay County",
+        "sub_county": "Suba North",
+        "cluster_id": 20,
+        "distance_to_cluster_center": 17.58,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8827811,
+          -0.4415205
+        ]
+      },
+      "properties": {
+        "id": 51,
+        "name": "Got Rateng Mixed Secondary school",
+        "county": "Homabay County",
+        "sub_county": "Rachuonyo East",
+        "cluster_id": 12,
+        "distance_to_cluster_center": 27.32,
+        "location_type": "ROOFTOP"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.1,
+          -0.7666667
+        ]
+      },
+      "properties": {
+        "id": 52,
+        "name": "God Oloo Mixed Secondary School",
+        "county": "Homabay County",
+        "sub_county": "Suba South",
+        "cluster_id": 20,
+        "distance_to_cluster_center": 21.56,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.6082018,
+          -0.6121798
+        ]
+      },
+      "properties": {
+        "id": 53,
+        "name": "Wikoteng\u00e2\u20ac\u2122 Mixed Secondary School",
+        "county": "Homabay County",
+        "sub_county": "Rangwe",
+        "cluster_id": 12,
+        "distance_to_cluster_center": 13.87,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.6888793,
+          -0.4280055
+        ]
+      },
+      "properties": {
+        "id": 54,
+        "name": "Nyalenda Mixed Secondary school",
+        "county": "Homabay County",
+        "sub_county": "Rachuonyo South",
+        "cluster_id": 12,
+        "distance_to_cluster_center": 8.82,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.6467622,
+          -0.4265975
+        ]
+      },
+      "properties": {
+        "id": 55,
+        "name": "Kowuor Mixed Swcondary school",
+        "county": "Homabay County",
+        "sub_county": "Rachuonyo North",
+        "cluster_id": 12,
+        "distance_to_cluster_center": 7.32,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.5,
+          -0.5833333
+        ]
+      },
+      "properties": {
+        "id": 56,
+        "name": "Otaro Mixed Secondary",
+        "county": "Homabay County",
+        "sub_county": "Rachuonyo West",
+        "cluster_id": 12,
+        "distance_to_cluster_center": 18.79,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.6892128,
+          0.7214493
+        ]
+      },
+      "properties": {
+        "id": 57,
+        "name": "Bunang'eni Junior School",
+        "county": "Bungoma County",
+        "sub_county": "Webuye West Subcounty",
+        "cluster_id": 6,
+        "distance_to_cluster_center": 9.96,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.9609025,
+          0.7833239
+        ]
+      },
+      "properties": {
+        "id": 58,
+        "name": "Tongaren DEB Junior School",
+        "county": "Bungoma County",
+        "sub_county": "Tongaren",
+        "cluster_id": 21,
+        "distance_to_cluster_center": 18.4,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.78544,
+          0.750933
+        ]
+      },
+      "properties": {
+        "id": 59,
+        "name": "Wabukhonyi SA Secondary School",
+        "county": "Bungoma County",
+        "sub_county": "Bungoma Central Subcounty",
+        "cluster_id": 21,
+        "distance_to_cluster_center": 14.76,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.6590485,
+          0.8002474
+        ]
+      },
+      "properties": {
+        "id": 60,
+        "name": "Friends Chebukwabi Secondary School",
+        "county": "Bungoma County",
+        "sub_county": "Kimilili Subcounty",
+        "cluster_id": 6,
+        "distance_to_cluster_center": 1.4,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.591173,
+          0.87877
+        ]
+      },
+      "properties": {
+        "id": 61,
+        "name": "St John Chepyuk Secondary School",
+        "county": "Bungoma County",
+        "sub_county": "Kopsiro Subcounty",
+        "cluster_id": 6,
+        "distance_to_cluster_center": 10.69,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.5498966,
+          0.5340557
+        ]
+      },
+      "properties": {
+        "id": 62,
+        "name": "Namachanja and Musikoma Secondary Schools",
+        "county": "Bungoma County",
+        "sub_county": "Bungoma South Subcounty",
+        "cluster_id": 0,
+        "distance_to_cluster_center": 3.43,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.7784297,
+          0.5973722
+        ]
+      },
+      "properties": {
+        "id": 63,
+        "name": "Nabuyole Secondary School",
+        "county": "Bungoma County",
+        "sub_county": "Webuye East Subcounty",
+        "cluster_id": 21,
+        "distance_to_cluster_center": 11.33,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.4883409,
+          0.58015
+        ]
+      },
+      "properties": {
+        "id": 64,
+        "name": "St Kizito Mayanja Secondary School",
+        "county": "Bungoma County",
+        "sub_county": "Kimaeti Subcounty",
+        "cluster_id": 0,
+        "distance_to_cluster_center": 5.57,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.5500697,
+          0.5949997
+        ]
+      },
+      "properties": {
+        "id": 65,
+        "name": "Bishop Eliud Wabukala Secondary School",
+        "county": "Bungoma County",
+        "sub_county": "Bungoma West Subcounty",
+        "cluster_id": 0,
+        "distance_to_cluster_center": 4.17,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.5498966,
+          0.5340557
+        ]
+      },
+      "properties": {
+        "id": 66,
+        "name": "Musikoma Secondary Schools",
+        "county": "Bungoma County",
+        "sub_county": "Bungoma South Subcounty",
+        "cluster_id": 0,
+        "distance_to_cluster_center": 3.43,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.5739932,
+          1.4009634
+        ]
+      },
+      "properties": {
+        "id": 67,
+        "name": "Lomut Mixed Secondary School",
+        "county": "West Pokot County",
+        "sub_county": "Pokot Central",
+        "cluster_id": 22,
+        "distance_to_cluster_center": 18.64,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3356518,
+          1.4547684
+        ]
+      },
+      "properties": {
+        "id": 68,
+        "name": "Sobukwo Mixed Secondary School",
+        "county": "West Pokot County",
+        "sub_county": "Kipkomo",
+        "cluster_id": 22,
+        "distance_to_cluster_center": 11.64,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.4014708,
+          1.2003222
+        ]
+      },
+      "properties": {
+        "id": 69,
+        "name": "Kapsangar Mixed  Secondary School",
+        "county": "West Pokot County",
+        "sub_county": "Pokot South",
+        "cluster_id": 19,
+        "distance_to_cluster_center": 22.0,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.1158754,
+          1.2045582
+        ]
+      },
+      "properties": {
+        "id": 70,
+        "name": "Talau Mixed  Secondary School",
+        "county": "West Pokot County",
+        "sub_county": "West Pokot",
+        "cluster_id": 19,
+        "distance_to_cluster_center": 11.2,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.994751,
+          1.5327973
+        ]
+      },
+      "properties": {
+        "id": 71,
+        "name": "Alale Mixed Secondary School",
+        "county": "West Pokot County",
+        "sub_county": "Kacheliba/North Pokot",
+        "cluster_id": 11,
+        "distance_to_cluster_center": 0.0,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.3905046,
+          1.6210076
+        ]
+      },
+      "properties": {
+        "id": 72,
+        "name": "RCEA Marichpass Mixed Secondary School",
+        "county": "West Pokot County",
+        "sub_county": "Pokot Central",
+        "cluster_id": 22,
+        "distance_to_cluster_center": 15.09,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2081266,
+          1.3074617
+        ]
+      },
+      "properties": {
+        "id": 73,
+        "name": "Chepareria Mixed Secondary School",
+        "county": "West Pokot County",
+        "sub_county": "Kipkomo",
+        "cluster_id": 19,
+        "distance_to_cluster_center": 7.04,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2313307,
+          1.2147045
+        ]
+      },
+      "properties": {
+        "id": 74,
+        "name": "Chepkono Mixed Secondary School",
+        "county": "West Pokot County",
+        "sub_county": "Pokot South",
+        "cluster_id": 19,
+        "distance_to_cluster_center": 4.14,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.0904494,
+          1.255279
+        ]
+      },
+      "properties": {
+        "id": 75,
+        "name": "Mnagei Mixed Secondary School",
+        "county": "West Pokot County",
+        "sub_county": "West Pokot",
+        "cluster_id": 19,
+        "distance_to_cluster_center": 13.18,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2038559,
+          1.2823948
+        ]
+      },
+      "properties": {
+        "id": 76,
+        "name": "Ortum Mixed  Secondary School",
+        "county": "West Pokot County",
+        "sub_county": "Kipkomo",
+        "cluster_id": 19,
+        "distance_to_cluster_center": 4.29,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.954107,
+          1.2154506
+        ]
+      },
+      "properties": {
+        "id": 77,
+        "name": "Mwangaza mixed day sec school",
+        "county": "Samburu County",
+        "sub_county": "Samburu central subcounty",
+        "cluster_id": 5,
+        "distance_to_cluster_center": 17.75,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.6531301,
+          1.0438811
+        ]
+      },
+      "properties": {
+        "id": 78,
+        "name": "Maralal mixed day sec school",
+        "county": "Samburu County",
+        "sub_county": "Samburu central subcounty",
+        "cluster_id": 5,
+        "distance_to_cluster_center": 22.42,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.6531301,
+          1.0438811
+        ]
+      },
+      "properties": {
+        "id": 79,
+        "name": "Loikas mixed day sec school",
+        "county": "Samburu County",
+        "sub_county": "Samburu central subcounty",
+        "cluster_id": 5,
+        "distance_to_cluster_center": 22.42,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7873365,
+          1.7851169
+        ]
+      },
+      "properties": {
+        "id": 80,
+        "name": "Baragoi mixed day sec school",
+        "county": "Samburu County",
+        "sub_county": "Samburu West sub county",
+        "cluster_id": 7,
+        "distance_to_cluster_center": 26.78,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.3143649,
+          1.0071656
+        ]
+      },
+      "properties": {
+        "id": 81,
+        "name": "Wamba mixed day sec school",
+        "county": "Samburu County",
+        "sub_county": "Samburu East sub county",
+        "cluster_id": 4,
+        "distance_to_cluster_center": 0.0,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.954107,
+          1.2154506
+        ]
+      },
+      "properties": {
+        "id": 82,
+        "name": "Ngari mixed day sec school",
+        "county": "Samburu County",
+        "sub_county": "Samburu central subcounty",
+        "cluster_id": 5,
+        "distance_to_cluster_center": 17.75,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.6531301,
+          1.0438811
+        ]
+      },
+      "properties": {
+        "id": 83,
+        "name": "Nachola mixed day sec school",
+        "county": "Samburu County",
+        "sub_county": "Samburu West sub county",
+        "cluster_id": 5,
+        "distance_to_cluster_center": 22.42,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7765641,
+          1.7932543
+        ]
+      },
+      "properties": {
+        "id": 84,
+        "name": "Nalingangor mixed day sec school",
+        "county": "Samburu County",
+        "sub_county": "Samburu West sub county",
+        "cluster_id": 7,
+        "distance_to_cluster_center": 25.38,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.7604027,
+          1.5146722
+        ]
+      },
+      "properties": {
+        "id": 85,
+        "name": "Marti mixed day & boarding sec school",
+        "county": "Samburu County",
+        "sub_county": "Samburu West sub county",
+        "cluster_id": 5,
+        "distance_to_cluster_center": 36.93,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.954107,
+          1.2154506
+        ]
+      },
+      "properties": {
+        "id": 86,
+        "name": "Lodungokwek mixed",
+        "county": "Samburu County",
+        "sub_county": "Samburu East sub county",
+        "cluster_id": 5,
+        "distance_to_cluster_center": 17.75,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.0223298,
+          -1.0842666
+        ]
+      },
+      "properties": {
+        "id": 87,
+        "name": "Kyamboo Secondary School",
+        "county": "Kitui County",
+        "sub_county": "Migwani",
+        "cluster_id": 18,
+        "distance_to_cluster_center": 44.45,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.9952144,
+          -1.3750813
+        ]
+      },
+      "properties": {
+        "id": 88,
+        "name": "Kangii Secondary Scgool",
+        "county": "Kitui County",
+        "sub_county": "Kitui West",
+        "cluster_id": 18,
+        "distance_to_cluster_center": 16.02,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.9847724,
+          -1.5108588
+        ]
+      },
+      "properties": {
+        "id": 89,
+        "name": "Ngiluni Secondary School",
+        "county": "Kitui County",
+        "sub_county": "Kisasi",
+        "cluster_id": 18,
+        "distance_to_cluster_center": 13.03,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.0158347,
+          -1.3847463
+        ]
+      },
+      "properties": {
+        "id": 90,
+        "name": "Kyanika Secondary School",
+        "county": "Kitui County",
+        "sub_county": "Nzambani",
+        "cluster_id": 18,
+        "distance_to_cluster_center": 13.66,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.0843008,
+          -1.4266752
+        ]
+      },
+      "properties": {
+        "id": 91,
+        "name": "Kavia Secondary School",
+        "county": "Kitui County",
+        "sub_county": "Nzambani",
+        "cluster_id": 18,
+        "distance_to_cluster_center": 5.77,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.234841,
+          -1.4524714
+        ]
+      },
+      "properties": {
+        "id": 92,
+        "name": "Kikuu Secondary school",
+        "county": "Kitui County",
+        "sub_county": "Zombe",
+        "cluster_id": 18,
+        "distance_to_cluster_center": 15.56,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.0208151,
+          -0.5036955
+        ]
+      },
+      "properties": {
+        "id": 93,
+        "name": "Kiliwa Secondary school",
+        "county": "Kitui County",
+        "sub_county": "Mumoni",
+        "cluster_id": 2,
+        "distance_to_cluster_center": 0.0,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.330505,
+          -2.009464
+        ]
+      },
+      "properties": {
+        "id": 94,
+        "name": "Simisi Secondary school",
+        "county": "Kitui County",
+        "sub_county": "Ikutha",
+        "cluster_id": 18,
+        "distance_to_cluster_center": 64.64,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.2005368,
+          -1.6319557
+        ]
+      },
+      "properties": {
+        "id": 95,
+        "name": "St.Catejan Kyaango",
+        "county": "Kitui County",
+        "sub_county": "Mutomo",
+        "cluster_id": 18,
+        "distance_to_cluster_center": 20.72,
+        "location_type": "APPROXIMATE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          38.0046056,
+          -1.4177186
+        ]
+      },
+      "properties": {
+        "id": 96,
+        "name": "Yumbisye Secondary School",
+        "county": "Kitui County",
+        "sub_county": "Katulani",
+        "cluster_id": 18,
+        "distance_to_cluster_center": 12.2,
+        "location_type": "GEOMETRIC_CENTER"
+      }
+    }
+  ]
+}
