@@ -83,7 +83,7 @@ export default function Home() {
 
   if (error) {
     return (
-      <div className="flex items-center justify-center h-screen bg-gray-900">
+      <div className="flex items-center justify-center h-screen bg-gray-900 px-4">
         <div className="text-center max-w-md p-8 bg-red-900 bg-opacity-20 rounded-lg border border-red-500">
           <h2 className="text-red-400 text-xl font-bold mb-2">Error Loading Data</h2>
           <p className="text-gray-300">{error}</p>
@@ -100,23 +100,28 @@ export default function Home() {
 
   return (
     <main className="relative w-screen h-screen overflow-hidden">
-      {/* Header */}
+      {/* Header - Mobile Responsive */}
       <header className="absolute top-0 left-0 right-0 z-20 bg-gradient-to-r from-blue-900 to-purple-900 bg-opacity-95 backdrop-blur-sm shadow-lg">
-        <div className="px-6 py-4">
-          <div className="flex items-center justify-between">
-            <div>
-              <h1 className="text-2xl font-bold text-white flex items-center space-x-2">
+        <div className="px-3 sm:px-6 py-3 sm:py-4">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
+            <div className="flex-1">
+              <h1 className="text-base sm:text-xl md:text-2xl font-bold text-white flex items-center space-x-2">
                 <span>🎓</span>
-                <span>Kenya Schools Training Centers</span>
+                <span className="truncate">Kenya Schools Training Centers</span>
               </h1>
-              <p className="text-sm text-gray-300 mt-1">
-                {schools.length} schools across {new Set(schools.map(s => s.county)).size} counties • {clusterCenters.length} regional training centers
+              <p className="text-xs sm:text-sm text-gray-300 mt-1">
+                <span className="hidden sm:inline">
+                  {schools.length} schools across {new Set(schools.map(s => s.county)).size} counties • {clusterCenters.length} regional training centers
+                </span>
+                <span className="sm:hidden">
+                  {schools.length} schools • {clusterCenters.length} centers
+                </span>
               </p>
             </div>
-            <div className="flex items-center space-x-3">
+            <div className="hidden sm:flex items-center space-x-3">
               <div className="text-right">
                 <div className="text-xs text-gray-400">Powered by</div>
-                <div className="text-sm font-semibold text-white">AFOSI</div>
+                <div className="text-sm font-semibold text-white">Google Maps API</div>
               </div>
             </div>
           </div>
@@ -124,7 +129,7 @@ export default function Home() {
       </header>
 
       {/* Map */}
-      <div className="absolute inset-0 pt-20">
+      <div className="absolute inset-0 pt-16 sm:pt-20">
         <MapContainer
           schools={schools}
           clusterCenters={clusterCenters}
@@ -152,12 +157,12 @@ export default function Home() {
         filteredCounties={filteredCounties}
       />
 
-      {/* Footer Info */}
-      <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 z-10">
-        <div className="glass-dark px-4 py-2 rounded-full text-xl text-white-400 flex items-center space-x-4">
+      {/* Footer Info - Hidden on mobile */}
+      <div className="hidden sm:block absolute bottom-4 left-1/2 transform -translate-x-1/2 z-10">
+        <div className="glass-dark px-4 py-2 rounded-full text-xl text-white-300 flex items-center space-x-4">
           <span>🟢 {schools.filter(s => filteredCounties.length === 0 || filteredCounties.includes(s.county)).length} schools visible</span>
           <span>•</span>
-          <span>Powered By AFOSI</span>
+          <span>⭐Powered BY AFOSI</span>
           <span>•</span>
         </div>
       </div>

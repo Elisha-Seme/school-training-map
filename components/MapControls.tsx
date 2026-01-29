@@ -45,50 +45,50 @@ export default function MapControls({
   }
 
   return (
-    <div className="absolute top-28 left-4 z-10 space-y-3 max-w-sm">
+    <div className="absolute top-28 left-2 right-2 sm:left-4 sm:right-auto z-10 space-y-3 w-auto sm:max-w-sm">
       {/* Main Toggle */}
-      <div className="glass-dark rounded-lg p-4 shadow-lg">
-        <div className="flex items-center justify-between mb-3">
-          <span className="text-sm font-semibold text-white">View Mode</span>
+      <div className="glass-dark rounded-lg p-3 shadow-lg">
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between mb-3 gap-2">
+          <span className="text-xs sm:text-sm font-semibold text-white">View Mode</span>
           <button
             onClick={() => setShowFilters(!showFilters)}
-            className="text-xs px-3 py-1 bg-blue-600 hover:bg-blue-700 rounded-full transition-colors"
+            className="text-xs px-3 py-1 bg-blue-600 hover:bg-blue-700 rounded-full transition-colors whitespace-nowrap self-start sm:self-auto"
           >
-            {showFilters ? 'Hide' : 'Show'} Filters
+            {showFilters ? 'Click here to Hide' : 'Click here to Show'} Filters
           </button>
         </div>
         
-        <div className="flex items-center space-x-3">
+        <div className="flex flex-col sm:flex-row gap-2">
           <button
             onClick={() => onToggleCenters(false)}
-            className={`flex-1 px-4 py-2 rounded-lg font-medium transition-all ${
+            className={`w-full sm:flex-1 px-3 py-2 rounded-lg font-medium transition-all ${
               !showCentersOnly
-                ? 'bg-blue-600 text-white shadow-lg scale-105'
-                : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
+                ? 'bg-blue-600 text-white shadow-lg'
+                : 'bg-gray-700 text-gray-300 active:bg-gray-600'
             }`}
           >
             <div className="flex items-center justify-center space-x-2">
-              <span className="text-lg">🏫</span>
-              <span className="text-sm">All Schools</span>
+              <span className="text-base">🏫</span>
+              <span className="text-xs sm:text-sm">All Schools</span>
             </div>
           </button>
           
           <button
             onClick={() => onToggleCenters(true)}
-            className={`flex-1 px-4 py-2 rounded-lg font-medium transition-all ${
+            className={`w-full sm:flex-1 px-3 py-2 rounded-lg font-medium transition-all ${
               showCentersOnly
-                ? 'bg-amber-600 text-white shadow-lg scale-105'
-                : 'bg-gray-700 text-gray-300 hover:bg-gray-600'
+                ? 'bg-amber-600 text-white shadow-lg'
+                : 'bg-gray-700 text-gray-300 active:bg-gray-600'
             }`}
           >
             <div className="flex items-center justify-center space-x-2">
-              <span className="text-lg">⭐</span>
-              <span className="text-sm">Centers Only</span>
+              <span className="text-base">⭐</span>
+              <span className="text-xs sm:text-sm">Centers Only</span>
             </div>
           </button>
         </div>
 
-        <div className="mt-3 text-xs text-white-400 text-center">
+        <div className="mt-2 text-lg text-white-400 text-center">
           {showCentersOnly 
             ? '24 Regional Training Centers'
             : `${schools.filter(s => 
@@ -100,10 +100,10 @@ export default function MapControls({
 
       {/* Filters Panel */}
       {showFilters && (
-        <div className="glass-dark rounded-lg p-4 shadow-lg animate-slideIn">
+        <div className="glass-dark rounded-lg p-3 shadow-lg animate-slideIn max-h-[65vh] overflow-y-auto">
           {/* Search */}
-          <div className="mb-4">
-            <label className="block text-sm font-semibold text-white mb-2">
+          <div className="mb-3">
+            <label className="block text-xs sm:text-sm font-semibold text-white mb-2">
               🔍 Search Schools
             </label>
             <input
@@ -111,33 +111,33 @@ export default function MapControls({
               value={searchQuery}
               onChange={(e) => onSearchChange(e.target.value)}
               placeholder="Type school name..."
-              className="w-full px-3 py-2 bg-gray-800 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
+              className="w-full px-3 py-2 bg-gray-800 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 text-xs sm:text-sm"
             />
           </div>
 
           {/* County Filters */}
           <div>
             <div className="flex items-center justify-between mb-2">
-              <label className="block text-sm font-semibold text-white">
+              <label className="block text-xs sm:text-sm font-semibold text-white">
                 📍 Filter by County
               </label>
               <div className="flex space-x-2">
                 <button
                   onClick={selectAllCounties}
-                  className="text-xs text-blue-400 hover:text-blue-300"
+                  className="text-xs text-blue-400 active:text-blue-300"
                 >
                   All
                 </button>
                 <button
                   onClick={clearFilters}
-                  className="text-xs text-red-400 hover:text-red-300"
+                  className="text-xs text-red-400 active:text-red-300"
                 >
                   Clear
                 </button>
               </div>
             </div>
             
-            <div className="space-y-2 max-h-64 overflow-y-auto pr-2">
+            <div className="space-y-2 max-h-48 sm:max-h-64 overflow-y-auto pr-1">
               {counties.map((county) => {
                 const schoolCount = schools.filter(s => s.county === county).length
                 const isSelected = filteredCounties.includes(county)
@@ -145,10 +145,10 @@ export default function MapControls({
                 return (
                   <label
                     key={county}
-                    className={`flex items-center justify-between px-3 py-2 rounded-lg cursor-pointer transition-all ${
+                    className={`flex items-center justify-between px-2 sm:px-3 py-2 rounded-lg cursor-pointer transition-all ${
                       isSelected
                         ? 'bg-blue-600 bg-opacity-30 border border-blue-500'
-                        : 'bg-gray-800 bg-opacity-50 border border-gray-700 hover:bg-gray-700'
+                        : 'bg-gray-800 bg-opacity-50 border border-gray-700 active:bg-gray-700'
                     }`}
                   >
                     <div className="flex items-center space-x-2">
@@ -158,9 +158,9 @@ export default function MapControls({
                         onChange={() => toggleCounty(county)}
                         className="w-4 h-4 text-blue-600 bg-gray-700 border-gray-600 rounded focus:ring-blue-500"
                       />
-                      <span className="text-sm text-white">{county}</span>
+                      <span className="text-xs sm:text-sm text-white truncate">{county}</span>
                     </div>
-                    <span className="text-xs text-gray-400 bg-gray-900 px-2 py-1 rounded-full">
+                    <span className="text-xs text-gray-400 bg-gray-900 px-2 py-1 rounded-full ml-2">
                       {schoolCount}
                     </span>
                   </label>
@@ -173,10 +173,10 @@ export default function MapControls({
           {(filteredCounties.length > 0 || searchQuery) && (
             <div className="mt-3 pt-3 border-t border-gray-700">
               <div className="flex items-center justify-between text-xs text-gray-400">
-                <span>Active Filters: {filteredCounties.length + (searchQuery ? 1 : 0)}</span>
+                <span>Filters: {filteredCounties.length + (searchQuery ? 1 : 0)}</span>
                 <button
                   onClick={clearFilters}
-                  className="text-red-400 hover:text-red-300 font-medium"
+                  className="text-red-400 active:text-red-300 font-medium"
                 >
                   Clear All
                 </button>
