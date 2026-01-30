@@ -122,7 +122,7 @@ export default function Home() {
             <div className="hidden sm:flex items-center space-x-3">
               <div className="text-right">
                 <div className="text-xs text-gray-400">Powered by</div>
-                <div className="text-sm font-semibold text-white">Google Maps API</div>
+                <div className="text-sm font-semibold text-white">AFOSI</div>
               </div>
             </div>
           </div>
