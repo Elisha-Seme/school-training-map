@@ -16,7 +16,8 @@
         "county": "Baringo County",
         "sub_county": "Mogotio",
         "cluster_id": 9,
-        "distance_to_cluster_center": 18.49,
+        "is_host_venue": false,
+        "distance_to_host_venue": 15.409799459452977,
         "location_type": "APPROXIMATE"
       }
     },
@@ -35,7 +36,8 @@
         "county": "Baringo County",
         "sub_county": "Baringo Central",
         "cluster_id": 3,
-        "distance_to_cluster_center": 16.69,
+        "is_host_venue": false,
+        "distance_to_host_venue": 10.542952663880175,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -54,7 +56,8 @@
         "county": "Baringo County",
         "sub_county": "Baringo Central",
         "cluster_id": 3,
-        "distance_to_cluster_center": 19.54,
+        "is_host_venue": false,
+        "distance_to_host_venue": 17.226532066039436,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -73,7 +76,8 @@
         "county": "Baringo County",
         "sub_county": "Marigat",
         "cluster_id": 9,
-        "distance_to_cluster_center": 36.22,
+        "is_host_venue": false,
+        "distance_to_host_venue": 45.42858802162891,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -92,7 +96,8 @@
         "county": "Baringo County",
         "sub_county": "Koibatek",
         "cluster_id": 15,
-        "distance_to_cluster_center": 0.0,
+        "is_host_venue": true,
+        "distance_to_host_venue": 0.0,
         "location_type": "APPROXIMATE"
       }
     },
@@ -111,7 +116,8 @@
         "county": "Baringo County",
         "sub_county": "Mogotio",
         "cluster_id": 9,
-        "distance_to_cluster_center": 13.97,
+        "is_host_venue": true,
+        "distance_to_host_venue": 0.0,
         "location_type": "APPROXIMATE"
       }
     },
@@ -130,7 +136,8 @@
         "county": "Baringo County",
         "sub_county": "Baringo North",
         "cluster_id": 3,
-        "distance_to_cluster_center": 6.7,
+        "is_host_venue": true,
+        "distance_to_host_venue": 0.0,
         "location_type": "APPROXIMATE"
       }
     },
@@ -149,7 +156,8 @@
         "county": "Baringo County",
         "sub_county": "Baringo Central",
         "cluster_id": 3,
-        "distance_to_cluster_center": 19.55,
+        "is_host_venue": false,
+        "distance_to_host_venue": 17.235032279227916,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -168,7 +176,8 @@
         "county": "Baringo County",
         "sub_county": "Marigat",
         "cluster_id": 3,
-        "distance_to_cluster_center": 45.06,
+        "is_host_venue": false,
+        "distance_to_host_venue": 43.47186502981244,
         "location_type": "APPROXIMATE"
       }
     },
@@ -187,7 +196,8 @@
         "county": "Baringo County",
         "sub_county": "Koibatek",
         "cluster_id": 3,
-        "distance_to_cluster_center": 34.61,
+        "is_host_venue": false,
+        "distance_to_host_venue": 39.847582646925474,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -206,7 +216,8 @@
         "county": "Bomet County",
         "sub_county": "Bomet East sub county",
         "cluster_id": 8,
-        "distance_to_cluster_center": 0.0,
+        "is_host_venue": true,
+        "distance_to_host_venue": 0.0,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -225,7 +236,8 @@
         "county": "Bomet County",
         "sub_county": "Sotik Sub county",
         "cluster_id": 9,
-        "distance_to_cluster_center": 15.92,
+        "is_host_venue": false,
+        "distance_to_host_venue": 24.12609786059482,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -244,7 +256,8 @@
         "county": "Bomet County",
         "sub_county": "Chepalungu sub county",
         "cluster_id": 17,
-        "distance_to_cluster_center": 6.95,
+        "is_host_venue": false,
+        "distance_to_host_venue": 9.47832612634865,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -263,7 +276,8 @@
         "county": "Bomet County",
         "sub_county": "Bomet Central sub county",
         "cluster_id": 23,
-        "distance_to_cluster_center": 7.32,
+        "is_host_venue": true,
+        "distance_to_host_venue": 0.0,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -282,7 +296,8 @@
         "county": "Bomet County",
         "sub_county": "Konoin Sub County",
         "cluster_id": 23,
-        "distance_to_cluster_center": 7.94,
+        "is_host_venue": false,
+        "distance_to_host_venue": 13.902609248076669,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -301,7 +316,8 @@
         "county": "Bomet County",
         "sub_county": "Sotik Sub county",
         "cluster_id": 23,
-        "distance_to_cluster_center": 9.04,
+        "is_host_venue": false,
+        "distance_to_host_venue": 6.4428273307103625,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -320,7 +336,8 @@
         "county": "Bomet County",
         "sub_county": "Chepalungu sub county",
         "cluster_id": 17,
-        "distance_to_cluster_center": 4.24,
+        "is_host_venue": true,
+        "distance_to_host_venue": 0.0,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -339,7 +356,8 @@
         "county": "Bomet County",
         "sub_county": "Bomet Central sub county",
         "cluster_id": 17,
-        "distance_to_cluster_center": 6.54,
+        "is_host_venue": false,
+        "distance_to_host_venue": 8.552675179903314,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -358,7 +376,8 @@
         "county": "Bomet County",
         "sub_county": "Bomet East sub county",
         "cluster_id": 3,
-        "distance_to_cluster_center": 40.23,
+        "is_host_venue": false,
+        "distance_to_host_venue": 45.4472171541936,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -377,7 +396,8 @@
         "county": "Bomet County",
         "sub_county": "Konoin Sub County",
         "cluster_id": 23,
-        "distance_to_cluster_center": 14.98,
+        "is_host_venue": false,
+        "distance_to_host_venue": 20.058571104486447,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -396,7 +416,8 @@
         "county": "Kajiado County",
         "sub_county": "Loitokitok/Kajiado South",
         "cluster_id": 13,
-        "distance_to_cluster_center": 56.15,
+        "is_host_venue": false,
+        "distance_to_host_venue": 84.36376183395532,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -415,7 +436,8 @@
         "county": "Kajiado County",
         "sub_county": "Mashuuru",
         "cluster_id": 13,
-        "distance_to_cluster_center": 48.29,
+        "is_host_venue": false,
+        "distance_to_host_venue": 57.23085494118239,
         "location_type": "APPROXIMATE"
       }
     },
@@ -434,7 +456,8 @@
         "county": "Kajiado County",
         "sub_county": "Kajiado North",
         "cluster_id": 16,
-        "distance_to_cluster_center": 8.47,
+        "is_host_venue": false,
+        "distance_to_host_venue": 9.169003967800633,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -453,7 +476,8 @@
         "county": "Kajiado County",
         "sub_county": "Kajiado West",
         "cluster_id": 16,
-        "distance_to_cluster_center": 68.23,
+        "is_host_venue": false,
+        "distance_to_host_venue": 62.612081973857705,
         "location_type": "APPROXIMATE"
       }
     },
@@ -472,7 +496,8 @@
         "county": "Kajiado County",
         "sub_county": "Kajiado Central",
         "cluster_id": 16,
-        "distance_to_cluster_center": 50.46,
+        "is_host_venue": false,
+        "distance_to_host_venue": 57.8432554967709,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -491,7 +516,8 @@
         "county": "Kajiado County",
         "sub_county": "Loitokitok/Kajiado South",
         "cluster_id": 13,
-        "distance_to_cluster_center": 76.83,
+        "is_host_venue": false,
+        "distance_to_host_venue": 102.65753000380208,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -510,7 +536,8 @@
         "county": "Kajiado County",
         "sub_county": "Elangata Wuas",
         "cluster_id": 13,
-        "distance_to_cluster_center": 83.14,
+        "is_host_venue": false,
+        "distance_to_host_venue": 54.903381354820944,
         "location_type": "APPROXIMATE"
       }
     },
@@ -529,7 +556,8 @@
         "county": "Kajiado County",
         "sub_county": "Isinya",
         "cluster_id": 16,
-        "distance_to_cluster_center": 34.99,
+        "is_host_venue": false,
+        "distance_to_host_venue": 38.41202765168776,
         "location_type": "APPROXIMATE"
       }
     },
@@ -548,7 +576,8 @@
         "county": "Kajiado County",
         "sub_county": "Kajiado West",
         "cluster_id": 16,
-        "distance_to_cluster_center": 7.39,
+        "is_host_venue": true,
+        "distance_to_host_venue": 0.0,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -567,7 +596,8 @@
         "county": "Kajiado County",
         "sub_county": "Oloililai",
         "cluster_id": 13,
-        "distance_to_cluster_center": 30.68,
+        "is_host_venue": true,
+        "distance_to_host_venue": 0.0,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -586,7 +616,8 @@
         "county": "Nandi County",
         "sub_county": "Emgwen",
         "cluster_id": 10,
-        "distance_to_cluster_center": 6.94,
+        "is_host_venue": false,
+        "distance_to_host_venue": 2.375233059861527,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -605,7 +636,8 @@
         "county": "Nandi County",
         "sub_county": "Emgwen",
         "cluster_id": 10,
-        "distance_to_cluster_center": 5.95,
+        "is_host_venue": true,
+        "distance_to_host_venue": 0.0,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -624,7 +656,8 @@
         "county": "Nandi County",
         "sub_county": "CHESUMEI",
         "cluster_id": 10,
-        "distance_to_cluster_center": 11.9,
+        "is_host_venue": false,
+        "distance_to_host_venue": 8.530087286417663,
         "location_type": "APPROXIMATE"
       }
     },
@@ -643,7 +676,8 @@
         "county": "Nandi County",
         "sub_county": "CHESUMEI",
         "cluster_id": 10,
-        "distance_to_cluster_center": 8.13,
+        "is_host_venue": false,
+        "distance_to_host_venue": 4.840153033506786,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -662,7 +696,8 @@
         "county": "Nandi County",
         "sub_county": "Aldai",
         "cluster_id": 10,
-        "distance_to_cluster_center": 23.89,
+        "is_host_venue": false,
+        "distance_to_host_venue": 25.06405248657734,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -681,7 +716,8 @@
         "county": "Nandi County",
         "sub_county": "Aldai",
         "cluster_id": 10,
-        "distance_to_cluster_center": 20.6,
+        "is_host_venue": false,
+        "distance_to_host_venue": 22.565868256517525,
         "location_type": "APPROXIMATE"
       }
     },
@@ -700,7 +736,8 @@
         "county": "Nandi County",
         "sub_county": "Nandihills",
         "cluster_id": 10,
-        "distance_to_cluster_center": 10.82,
+        "is_host_venue": false,
+        "distance_to_host_venue": 15.051134486976345,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -719,7 +756,8 @@
         "county": "Nandi County",
         "sub_county": "Nandihills",
         "cluster_id": 10,
-        "distance_to_cluster_center": 17.51,
+        "is_host_venue": false,
+        "distance_to_host_venue": 17.33198599187827,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -738,7 +776,8 @@
         "county": "Nandi County",
         "sub_county": "Mosop",
         "cluster_id": 21,
-        "distance_to_cluster_center": 23.0,
+        "is_host_venue": false,
+        "distance_to_host_venue": 24.40969201324408,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -757,7 +796,8 @@
         "county": "Nandi County",
         "sub_county": "TINDERET",
         "cluster_id": 10,
-        "distance_to_cluster_center": 26.87,
+        "is_host_venue": false,
+        "distance_to_host_venue": 31.373158729164725,
         "location_type": "APPROXIMATE"
       }
     },
@@ -776,7 +816,8 @@
         "county": "Turkana County",
         "sub_county": "Aroo",
         "cluster_id": 1,
-        "distance_to_cluster_center": 0.0,
+        "is_host_venue": true,
+        "distance_to_host_venue": 0.0,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -795,7 +836,8 @@
         "county": "Turkana County",
         "sub_county": "Turkana South",
         "cluster_id": 14,
-        "distance_to_cluster_center": 12.93,
+        "is_host_venue": true,
+        "distance_to_host_venue": 0.0,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -814,7 +856,8 @@
         "county": "Turkana County",
         "sub_county": "Turkana East",
         "cluster_id": 7,
-        "distance_to_cluster_center": 52.15,
+        "is_host_venue": false,
+        "distance_to_host_venue": 77.528511221281,
         "location_type": "APPROXIMATE"
       }
     },
@@ -833,7 +876,8 @@
         "county": "Turkana County",
         "sub_county": "Turkana Central",
         "cluster_id": 14,
-        "distance_to_cluster_center": 44.34,
+        "is_host_venue": false,
+        "distance_to_host_venue": 55.290545502818304,
         "location_type": "APPROXIMATE"
       }
     },
@@ -852,7 +896,8 @@
         "county": "Turkana County",
         "sub_county": "Turkana Central",
         "cluster_id": 14,
-        "distance_to_cluster_center": 23.31,
+        "is_host_venue": false,
+        "distance_to_host_venue": 12.028215488927506,
         "location_type": "APPROXIMATE"
       }
     },
@@ -871,7 +916,8 @@
         "county": "Turkana County",
         "sub_county": "Aroo",
         "cluster_id": 14,
-        "distance_to_cluster_center": 17.15,
+        "is_host_venue": false,
+        "distance_to_host_venue": 21.19375561640188,
         "location_type": "APPROXIMATE"
       }
     },
@@ -890,7 +936,8 @@
         "county": "Turkana County",
         "sub_county": "Aroo",
         "cluster_id": 14,
-        "distance_to_cluster_center": 17.15,
+        "is_host_venue": false,
+        "distance_to_host_venue": 21.19375561640188,
         "location_type": "APPROXIMATE"
       }
     },
@@ -909,7 +956,8 @@
         "county": "Homabay County",
         "sub_county": "Homa Bay",
         "cluster_id": 12,
-        "distance_to_cluster_center": 23.16,
+        "is_host_venue": false,
+        "distance_to_host_venue": 26.71443086513367,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -928,7 +976,8 @@
         "county": "Homabay County",
         "sub_county": "Rachuonyo North",
         "cluster_id": 12,
-        "distance_to_cluster_center": 13.95,
+        "is_host_venue": false,
+        "distance_to_host_venue": 9.363745936758878,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -947,7 +996,8 @@
         "county": "Homabay County",
         "sub_county": "Ndhiwa",
         "cluster_id": 20,
-        "distance_to_cluster_center": 11.8,
+        "is_host_venue": true,
+        "distance_to_host_venue": 0.0,
         "location_type": "APPROXIMATE"
       }
     },
@@ -966,7 +1016,8 @@
         "county": "Homabay County",
         "sub_county": "Suba North",
         "cluster_id": 20,
-        "distance_to_cluster_center": 17.58,
+        "is_host_venue": false,
+        "distance_to_host_venue": 20.77956043404377,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -985,7 +1036,8 @@
         "county": "Homabay County",
         "sub_county": "Rachuonyo East",
         "cluster_id": 12,
-        "distance_to_cluster_center": 27.32,
+        "is_host_venue": false,
+        "distance_to_host_venue": 26.29575933008521,
         "location_type": "ROOFTOP"
       }
     },
@@ -1004,7 +1056,8 @@
         "county": "Homabay County",
         "sub_county": "Suba South",
         "cluster_id": 20,
-        "distance_to_cluster_center": 21.56,
+        "is_host_venue": false,
+        "distance_to_host_venue": 29.980067233609745,
         "location_type": "APPROXIMATE"
       }
     },
@@ -1023,7 +1076,8 @@
         "county": "Homabay County",
         "sub_county": "Rangwe",
         "cluster_id": 12,
-        "distance_to_cluster_center": 13.87,
+        "is_host_venue": false,
+        "distance_to_host_venue": 21.076519811244104,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -1042,7 +1096,8 @@
         "county": "Homabay County",
         "sub_county": "Rachuonyo South",
         "cluster_id": 12,
-        "distance_to_cluster_center": 8.82,
+        "is_host_venue": false,
+        "distance_to_host_venue": 4.685693938187201,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -1061,7 +1116,8 @@
         "county": "Homabay County",
         "sub_county": "Rachuonyo North",
         "cluster_id": 12,
-        "distance_to_cluster_center": 7.32,
+        "is_host_venue": true,
+        "distance_to_host_venue": 0.0,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -1080,7 +1136,8 @@
         "county": "Homabay County",
         "sub_county": "Rachuonyo West",
         "cluster_id": 12,
-        "distance_to_cluster_center": 18.79,
+        "is_host_venue": false,
+        "distance_to_host_venue": 23.87548711035683,
         "location_type": "APPROXIMATE"
       }
     },
@@ -1099,7 +1156,8 @@
         "county": "Bungoma County",
         "sub_county": "Webuye West Subcounty",
         "cluster_id": 6,
-        "distance_to_cluster_center": 9.96,
+        "is_host_venue": false,
+        "distance_to_host_venue": 9.381890298959757,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -1118,7 +1176,8 @@
         "county": "Bungoma County",
         "sub_county": "Tongaren",
         "cluster_id": 21,
-        "distance_to_cluster_center": 18.4,
+        "is_host_venue": false,
+        "distance_to_host_venue": 28.968251379366237,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -1137,7 +1196,8 @@
         "county": "Bungoma County",
         "sub_county": "Bungoma Central Subcounty",
         "cluster_id": 21,
-        "distance_to_cluster_center": 14.76,
+        "is_host_venue": false,
+        "distance_to_host_venue": 17.092963103675082,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -1156,7 +1216,8 @@
         "county": "Bungoma County",
         "sub_county": "Kimilili Subcounty",
         "cluster_id": 6,
-        "distance_to_cluster_center": 1.4,
+        "is_host_venue": true,
+        "distance_to_host_venue": 0.0,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -1175,7 +1236,8 @@
         "county": "Bungoma County",
         "sub_county": "Kopsiro Subcounty",
         "cluster_id": 6,
-        "distance_to_cluster_center": 10.69,
+        "is_host_venue": false,
+        "distance_to_host_venue": 11.540668800132751,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -1194,7 +1256,8 @@
         "county": "Bungoma County",
         "sub_county": "Bungoma South Subcounty",
         "cluster_id": 0,
-        "distance_to_cluster_center": 3.43,
+        "is_host_venue": true,
+        "distance_to_host_venue": 0.0,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -1213,7 +1276,8 @@
         "county": "Bungoma County",
         "sub_county": "Webuye East Subcounty",
         "cluster_id": 21,
-        "distance_to_cluster_center": 11.33,
+        "is_host_venue": true,
+        "distance_to_host_venue": 0.0,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -1232,7 +1296,8 @@
         "county": "Bungoma County",
         "sub_county": "Kimaeti Subcounty",
         "cluster_id": 0,
-        "distance_to_cluster_center": 5.57,
+        "is_host_venue": false,
+        "distance_to_host_venue": 8.550759917349616,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -1251,7 +1316,8 @@
         "county": "Bungoma County",
         "sub_county": "Bungoma West Subcounty",
         "cluster_id": 0,
-        "distance_to_cluster_center": 4.17,
+        "is_host_venue": false,
+        "distance_to_host_venue": 6.776690941656773,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -1270,7 +1336,8 @@
         "county": "Bungoma County",
         "sub_county": "Bungoma South Subcounty",
         "cluster_id": 0,
-        "distance_to_cluster_center": 3.43,
+        "is_host_venue": false,
+        "distance_to_host_venue": 0.0,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -1289,7 +1356,8 @@
         "county": "West Pokot County",
         "sub_county": "Pokot Central",
         "cluster_id": 22,
-        "distance_to_cluster_center": 18.64,
+        "is_host_venue": false,
+        "distance_to_host_venue": 27.161241305846065,
         "location_type": "APPROXIMATE"
       }
     },
@@ -1308,7 +1376,8 @@
         "county": "West Pokot County",
         "sub_county": "Kipkomo",
         "cluster_id": 22,
-        "distance_to_cluster_center": 11.64,
+        "is_host_venue": true,
+        "distance_to_host_venue": 0.0,
         "location_type": "APPROXIMATE"
       }
     },
@@ -1327,7 +1396,8 @@
         "county": "West Pokot County",
         "sub_county": "Pokot South",
         "cluster_id": 19,
-        "distance_to_cluster_center": 22.0,
+        "is_host_venue": false,
+        "distance_to_host_venue": 18.982002701396308,
         "location_type": "APPROXIMATE"
       }
     },
@@ -1346,7 +1416,8 @@
         "county": "West Pokot County",
         "sub_county": "West Pokot",
         "cluster_id": 19,
-        "distance_to_cluster_center": 11.2,
+        "is_host_venue": false,
+        "distance_to_host_venue": 12.884672553338383,
         "location_type": "APPROXIMATE"
       }
     },
@@ -1365,7 +1436,8 @@
         "county": "West Pokot County",
         "sub_county": "Kacheliba/North Pokot",
         "cluster_id": 11,
-        "distance_to_cluster_center": 0.0,
+        "is_host_venue": true,
+        "distance_to_host_venue": 0.0,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -1384,7 +1456,8 @@
         "county": "West Pokot County",
         "sub_county": "Pokot Central",
         "cluster_id": 22,
-        "distance_to_cluster_center": 15.09,
+        "is_host_venue": false,
+        "distance_to_host_venue": 19.464554227693984,
         "location_type": "APPROXIMATE"
       }
     },
@@ -1403,7 +1476,8 @@
         "county": "West Pokot County",
         "sub_county": "Kipkomo",
         "cluster_id": 19,
-        "distance_to_cluster_center": 7.04,
+        "is_host_venue": false,
+        "distance_to_host_venue": 10.631809450455371,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -1422,7 +1496,8 @@
         "county": "West Pokot County",
         "sub_county": "Pokot South",
         "cluster_id": 19,
-        "distance_to_cluster_center": 4.14,
+        "is_host_venue": true,
+        "distance_to_host_venue": 0.0,
         "location_type": "APPROXIMATE"
       }
     },
@@ -1441,7 +1516,8 @@
         "county": "West Pokot County",
         "sub_county": "West Pokot",
         "cluster_id": 19,
-        "distance_to_cluster_center": 13.18,
+        "is_host_venue": false,
+        "distance_to_host_venue": 16.29854030678371,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -1460,7 +1536,8 @@
         "county": "West Pokot County",
         "sub_county": "Kipkomo",
         "cluster_id": 19,
-        "distance_to_cluster_center": 4.29,
+        "is_host_venue": false,
+        "distance_to_host_venue": 8.122926661777093,
         "location_type": "APPROXIMATE"
       }
     },
@@ -1479,7 +1556,8 @@
         "county": "Samburu County",
         "sub_county": "Samburu central subcounty",
         "cluster_id": 5,
-        "distance_to_cluster_center": 17.75,
+        "is_host_venue": true,
+        "distance_to_host_venue": 0.0,
         "location_type": "APPROXIMATE"
       }
     },
@@ -1498,7 +1576,8 @@
         "county": "Samburu County",
         "sub_county": "Samburu central subcounty",
         "cluster_id": 5,
-        "distance_to_cluster_center": 22.42,
+        "is_host_venue": false,
+        "distance_to_host_venue": 38.51711204286861,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -1517,7 +1596,8 @@
         "county": "Samburu County",
         "sub_county": "Samburu central subcounty",
         "cluster_id": 5,
-        "distance_to_cluster_center": 22.42,
+        "is_host_venue": false,
+        "distance_to_host_venue": 38.51711204286861,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -1536,7 +1616,8 @@
         "county": "Samburu County",
         "sub_county": "Samburu West sub county",
         "cluster_id": 7,
-        "distance_to_cluster_center": 26.78,
+        "is_host_venue": false,
+        "distance_to_host_venue": 1.5007145027048183,
         "location_type": "APPROXIMATE"
       }
     },
@@ -1555,7 +1636,8 @@
         "county": "Samburu County",
         "sub_county": "Samburu East sub county",
         "cluster_id": 4,
-        "distance_to_cluster_center": 0.0,
+        "is_host_venue": true,
+        "distance_to_host_venue": 0.0,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -1574,7 +1656,8 @@
         "county": "Samburu County",
         "sub_county": "Samburu central subcounty",
         "cluster_id": 5,
-        "distance_to_cluster_center": 17.75,
+        "is_host_venue": false,
+        "distance_to_host_venue": 0.0,
         "location_type": "APPROXIMATE"
       }
     },
@@ -1593,7 +1676,8 @@
         "county": "Samburu County",
         "sub_county": "Samburu West sub county",
         "cluster_id": 5,
-        "distance_to_cluster_center": 22.42,
+        "is_host_venue": false,
+        "distance_to_host_venue": 38.51711204286861,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -1612,7 +1696,8 @@
         "county": "Samburu County",
         "sub_county": "Samburu West sub county",
         "cluster_id": 7,
-        "distance_to_cluster_center": 25.38,
+        "is_host_venue": true,
+        "distance_to_host_venue": 0.0,
         "location_type": "APPROXIMATE"
       }
     },
@@ -1631,7 +1716,8 @@
         "county": "Samburu County",
         "sub_county": "Samburu West sub county",
         "cluster_id": 5,
-        "distance_to_cluster_center": 36.93,
+        "is_host_venue": false,
+        "distance_to_host_venue": 39.63183463471514,
         "location_type": "APPROXIMATE"
       }
     },
@@ -1650,7 +1736,8 @@
         "county": "Samburu County",
         "sub_county": "Samburu East sub county",
         "cluster_id": 5,
-        "distance_to_cluster_center": 17.75,
+        "is_host_venue": false,
+        "distance_to_host_venue": 0.0,
         "location_type": "APPROXIMATE"
       }
     },
@@ -1669,7 +1756,8 @@
         "county": "Kitui County",
         "sub_county": "Migwani",
         "cluster_id": 18,
-        "distance_to_cluster_center": 44.45,
+        "is_host_venue": false,
+        "distance_to_host_venue": 38.69235134478608,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -1688,7 +1776,8 @@
         "county": "Kitui County",
         "sub_county": "Kitui West",
         "cluster_id": 18,
-        "distance_to_cluster_center": 16.02,
+        "is_host_venue": false,
+        "distance_to_host_venue": 11.44474733029961,
         "location_type": "APPROXIMATE"
       }
     },
@@ -1707,7 +1796,8 @@
         "county": "Kitui County",
         "sub_county": "Kisasi",
         "cluster_id": 18,
-        "distance_to_cluster_center": 13.03,
+        "is_host_venue": false,
+        "distance_to_host_venue": 14.492189236036902,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -1726,7 +1816,8 @@
         "county": "Kitui County",
         "sub_county": "Nzambani",
         "cluster_id": 18,
-        "distance_to_cluster_center": 13.66,
+        "is_host_venue": false,
+        "distance_to_host_venue": 8.925301848301876,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -1745,7 +1836,8 @@
         "county": "Kitui County",
         "sub_county": "Nzambani",
         "cluster_id": 18,
-        "distance_to_cluster_center": 5.77,
+        "is_host_venue": true,
+        "distance_to_host_venue": 0.0,
         "location_type": "APPROXIMATE"
       }
     },
@@ -1764,7 +1856,8 @@
         "county": "Kitui County",
         "sub_county": "Zombe",
         "cluster_id": 18,
-        "distance_to_cluster_center": 15.56,
+        "is_host_venue": false,
+        "distance_to_host_venue": 16.978082431360566,
         "location_type": "APPROXIMATE"
       }
     },
@@ -1783,7 +1876,8 @@
         "county": "Kitui County",
         "sub_county": "Mumoni",
         "cluster_id": 2,
-        "distance_to_cluster_center": 0.0,
+        "is_host_venue": true,
+        "distance_to_host_venue": 0.0,
         "location_type": "APPROXIMATE"
       }
     },
@@ -1802,7 +1896,8 @@
         "county": "Kitui County",
         "sub_county": "Ikutha",
         "cluster_id": 18,
-        "distance_to_cluster_center": 64.64,
+        "is_host_venue": false,
+        "distance_to_host_venue": 70.34380210923001,
         "location_type": "GEOMETRIC_CENTER"
       }
     },
@@ -1821,7 +1916,8 @@
         "county": "Kitui County",
         "sub_county": "Mutomo",
         "cluster_id": 18,
-        "distance_to_cluster_center": 20.72,
+        "is_host_venue": false,
+        "distance_to_host_venue": 26.229102209032355,
         "location_type": "APPROXIMATE"
       }
     },
@@ -1840,7 +1936,8 @@
         "county": "Kitui County",
         "sub_county": "Katulani",
         "cluster_id": 18,
-        "distance_to_cluster_center": 12.2,
+        "is_host_venue": false,
+        "distance_to_host_venue": 8.91477758790369,
         "location_type": "GEOMETRIC_CENTER"
       }
     }

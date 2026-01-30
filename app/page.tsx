@@ -41,7 +41,8 @@ export default function Home() {
           latitude: feature.geometry.coordinates[1],
           longitude: feature.geometry.coordinates[0],
           cluster_id: feature.properties.cluster_id,
-          distance_to_cluster_center: feature.properties.distance_to_cluster_center,
+          is_host_venue: feature.properties.is_host_venue || false,
+          distance_to_host_venue: feature.properties.distance_to_host_venue || 0,
           location_type: feature.properties.location_type,
         }))
 
@@ -159,11 +160,10 @@ export default function Home() {
 
       {/* Footer Info - Hidden on mobile */}
       <div className="hidden sm:block absolute bottom-4 left-1/2 transform -translate-x-1/2 z-10">
-        <div className="glass-dark px-4 py-2 rounded-full text-xl text-white-300 flex items-center space-x-4">
+        <div className="glass-dark px-4 py-2 rounded-full text-xs text-gray-300 flex items-center space-x-4">
           <span>🟢 {schools.filter(s => filteredCounties.length === 0 || filteredCounties.includes(s.county)).length} schools visible</span>
           <span>•</span>
-          <span>⭐Powered BY AFOSI</span>
-          <span>•</span>
+          <span>⭐ {new Set(schools.filter(s => filteredCounties.length === 0 || filteredCounties.includes(s.county)).map(s => s.cluster_id)).size} centers active</span>
         </div>
       </div>
     </main>

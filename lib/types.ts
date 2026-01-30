@@ -8,7 +8,8 @@ export interface School {
   latitude: number;
   longitude: number;
   cluster_id: number;
-  distance_to_cluster_center: number;
+  is_host_venue: boolean;
+  distance_to_host_venue: number;
   location_type: string;
 }
 

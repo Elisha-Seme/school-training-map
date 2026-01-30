@@ -196,8 +196,21 @@ export default function MapContainer({
     }
   }, [mapsLoaded])
 
-  const centerIcon = useCallback((clusterId: number) => {
+  const centerIcon = useCallback((clusterId: number, isHostVenue: boolean = false) => {
     if (!mapsLoaded) return undefined
+
+    // For host venue schools, use a special compound icon
+    if (isHostVenue) {
+      return {
+        path: 'M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z', // Star
+        fillColor: '#FFD700', // Gold
+        fillOpacity: 1,
+        strokeColor: '#FF8C00', // Dark orange
+        strokeWeight: 3,
+        scale: 2,
+        anchor: new google.maps.Point(12, 12),
+      }
+    }
 
     return {
       path: 'M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z',
@@ -229,26 +242,27 @@ export default function MapContainer({
               <Marker
                 key={school.id}
                 position={{ lat: school.latitude, lng: school.longitude }}
-                icon={schoolIcon(school.cluster_id)}
+                icon={school.is_host_venue ? centerIcon(school.cluster_id, true) : schoolIcon(school.cluster_id)}
                 onClick={() => {
                   setSelectedSchool(school)
                   setSelectedCenter(null)
                 }}
                 title={school.name}
+                zIndex={school.is_host_venue ? 1000 : 100}
               />
             ))}
 
-            {/* Render Cluster Centers */}
-            {filteredCenters.map((center) => (
+            {/* Render Only Host Venues when in Centers Only mode */}
+            {showCentersOnly && filteredSchools.filter(s => s.is_host_venue).map((school) => (
               <Marker
-                key={`center-${center.cluster_id}`}
-                position={{ lat: center.center_lat, lng: center.center_lng }}
-                icon={centerIcon(center.cluster_id)}
+                key={`venue-${school.id}`}
+                position={{ lat: school.latitude, lng: school.longitude }}
+                icon={centerIcon(school.cluster_id, true)}
                 onClick={() => {
-                  setSelectedCenter(center)
-                  setSelectedSchool(null)
+                  setSelectedSchool(school)
+                  setSelectedCenter(null)
                 }}
-                title={`Training Center ${center.cluster_id + 1}`}
+                title={`${school.name} (Training Venue)`}
                 zIndex={1000}
               />
             ))}
@@ -260,48 +274,56 @@ export default function MapContainer({
                 onCloseClick={() => setSelectedSchool(null)}
               >
                 <div className="p-2 min-w-[250px]">
-                  <h3 className="font-bold text-lg text-gray-900 mb-2">{selectedSchool.name}</h3>
+                  <h3 className="font-bold text-lg text-gray-900 mb-2 flex items-center">
+                    {selectedSchool.is_host_venue && <span className="text-2xl mr-2">⭐</span>}
+                    {selectedSchool.name}
+                  </h3>
+                  
+                  {selectedSchool.is_host_venue && (
+                    <div className="bg-amber-50 border border-amber-200 rounded px-2 py-1 mb-2">
+                      <p className="text-xs font-semibold text-amber-800">
+                        🏫 Training Venue for Cluster {selectedSchool.cluster_id + 1}
+                      </p>
+                    </div>
+                  )}
+                  
                   <div className="space-y-1 text-sm text-gray-700">
                     <p><strong>County:</strong> {selectedSchool.county}</p>
                     <p><strong>Sub-County:</strong> {selectedSchool.sub_county}</p>
                     <p><strong>Cluster:</strong> #{selectedSchool.cluster_id + 1}</p>
-                    <p><strong>Distance to Training Center:</strong> {formatDistance(selectedSchool.distance_to_cluster_center)}</p>
-                    <p><strong>Location Type:</strong> {selectedSchool.location_type}</p>
+                    
+                    {!selectedSchool.is_host_venue && (
+                      <p><strong>Distance to Venue:</strong> {formatDistance(selectedSchool.distance_to_host_venue)}</p>
+                    )}
+                    
+                    {selectedSchool.is_host_venue && (() => {
+                      // Get other schools in this cluster
+                      const clusterSchools = schools.filter(s => 
+                        s.cluster_id === selectedSchool.cluster_id && !s.is_host_venue
+                      )
+                      return clusterSchools.length > 0 && (
+                        <div className="mt-2 pt-2 border-t border-gray-200">
+                          <p className="font-semibold text-xs text-gray-800 mb-1">
+                            Serves {clusterSchools.length} other school{clusterSchools.length > 1 ? 's' : ''}:
+                          </p>
+                          <ul className="text-xs text-gray-600 space-y-0.5 max-h-24 overflow-y-auto">
+                            {clusterSchools.map((s, idx) => (
+                              <li key={idx} className="truncate">
+                                • {s.name} ({formatDistance(s.distance_to_host_venue)})
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      )
+                    })()}
                   </div>
+                  
                   <div className="mt-2 pt-2 border-t border-gray-200">
                     <span
                       className="inline-block w-4 h-4 rounded-full mr-2"
                       style={{ backgroundColor: getClusterColor(selectedSchool.cluster_id) }}
                     />
                     <span className="text-xs text-gray-600">Cluster Color</span>
-                  </div>
-                </div>
-              </InfoWindow>
-            )}
-
-            {/* Cluster Center Info Window */}
-            {selectedCenter && (
-              <InfoWindow
-                position={{ lat: selectedCenter.center_lat, lng: selectedCenter.center_lng }}
-                onCloseClick={() => setSelectedCenter(null)}
-              >
-                <div className="p-2 min-w-[280px]">
-                  <h3 className="font-bold text-lg text-gray-900 mb-2 flex items-center">
-                    <span className="text-2xl mr-2">⭐</span>
-                    Regional Training Center #{selectedCenter.cluster_id + 1}
-                  </h3>
-                  <div className="space-y-1 text-sm text-gray-700 mb-3">
-                    <p><strong>Serves:</strong> {selectedCenter.num_schools} schools</p>
-                    <p><strong>Avg Distance:</strong> {formatDistance(selectedCenter.avg_distance)}</p>
-                    <p><strong>Max Distance:</strong> {formatDistance(selectedCenter.max_distance)}</p>
-                  </div>
-                  <div className="border-t border-gray-200 pt-2">
-                    <p className="font-semibold text-sm text-gray-800 mb-1">Schools in this cluster:</p>
-                    <ul className="text-xs text-gray-600 space-y-0.5 max-h-32 overflow-y-auto">
-                      {selectedCenter.schools.map((schoolName, idx) => (
-                        <li key={idx} className="truncate">• {schoolName}</li>
-                      ))}
-                    </ul>
                   </div>
                 </div>
               </InfoWindow>

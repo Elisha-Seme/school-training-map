@@ -52,16 +52,16 @@ export default function StatisticsDashboard({
   const distanceData = distanceRanges.map(({ range, min, max }) => ({
     range,
     count: filteredSchools.filter(s => 
-      s.distance_to_cluster_center >= min && s.distance_to_cluster_center < max
+      !s.is_host_venue && s.distance_to_host_venue >= min && s.distance_to_host_venue < max
     ).length,
   }))
 
   // Statistics
   const stats = {
     totalSchools: filteredSchools.length,
-    totalClusters: new Set(filteredSchools.map(s => s.cluster_id)).size,
-    avgDistance: (filteredSchools.reduce((sum, s) => sum + s.distance_to_cluster_center, 0) / filteredSchools.length).toFixed(1),
-    maxDistance: Math.max(...filteredSchools.map(s => s.distance_to_cluster_center)).toFixed(1),
+    totalVenues: filteredSchools.filter(s => s.is_host_venue).length,
+    avgDistance: (filteredSchools.filter(s => !s.is_host_venue).reduce((sum, s) => sum + s.distance_to_host_venue, 0) / filteredSchools.filter(s => !s.is_host_venue).length || 0).toFixed(1),
+    maxDistance: Math.max(...filteredSchools.map(s => s.distance_to_host_venue)).toFixed(1),
   }
 
   const handleExport = () => {
@@ -72,7 +72,8 @@ export default function StatisticsDashboard({
       'Latitude': s.latitude,
       'Longitude': s.longitude,
       'Cluster ID': s.cluster_id + 1,
-      'Distance to Center (km)': s.distance_to_cluster_center.toFixed(2),
+      'Is Training Venue': s.is_host_venue ? 'Yes' : 'No',
+      'Distance to Venue (km)': s.distance_to_host_venue.toFixed(2),
       'Location Type': s.location_type,
     }))
     exportToCSV(exportData, 'schools_export.csv')
@@ -112,8 +113,8 @@ export default function StatisticsDashboard({
                 <div className="text-xs text-gray-400 mt-1">Schools</div>
               </div>
               <div className="bg-gray-800 bg-opacity-50 rounded-lg p-3">
-                <div className="text-xl font-bold text-amber-400">{stats.totalClusters}</div>
-                <div className="text-xs text-gray-400 mt-1">Centers</div>
+                <div className="text-xl font-bold text-amber-400">{stats.totalVenues}</div>
+                <div className="text-xs text-gray-400 mt-1">Venues</div>
               </div>
               <div className="bg-gray-800 bg-opacity-50 rounded-lg p-3">
                 <div className="text-xl font-bold text-green-400">{stats.avgDistance}km</div>
@@ -158,8 +159,8 @@ export default function StatisticsDashboard({
               <div className="text-xs text-gray-400 mt-1">Total Schools</div>
             </div>
             <div className="bg-gray-800 bg-opacity-50 rounded-lg p-3">
-              <div className="text-2xl font-bold text-amber-400">{stats.totalClusters}</div>
-              <div className="text-xs text-gray-400 mt-1">Training Centers</div>
+              <div className="text-2xl font-bold text-amber-400">{stats.totalVenues}</div>
+              <div className="text-xs text-gray-400 mt-1">Training Venues</div>
             </div>
             <div className="bg-gray-800 bg-opacity-50 rounded-lg p-3">
               <div className="text-2xl font-bold text-green-400">{stats.avgDistance}km</div>

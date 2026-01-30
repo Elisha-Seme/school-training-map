@@ -54,7 +54,7 @@ export default function MapControls({
             onClick={() => setShowFilters(!showFilters)}
             className="text-xs px-3 py-1 bg-blue-600 hover:bg-blue-700 rounded-full transition-colors whitespace-nowrap self-start sm:self-auto"
           >
-            {showFilters ? 'Click here to Hide' : 'Click here to Show'} Filters
+            {showFilters ? 'Hide' : 'Show'} Filters
           </button>
         </div>
         
@@ -88,9 +88,9 @@ export default function MapControls({
           </button>
         </div>
 
-        <div className="mt-2 text-lg text-white-400 text-center">
+        <div className="mt-2 text-xs text-gray-400 text-center">
           {showCentersOnly 
-            ? '24 Regional Training Centers'
+            ? `${schools.filter(s => s.is_host_venue && (filteredCounties.length === 0 || filteredCounties.includes(s.county))).length} Training Venues`
             : `${schools.filter(s => 
                 filteredCounties.length === 0 || filteredCounties.includes(s.county)
               ).length} Schools Visible`
