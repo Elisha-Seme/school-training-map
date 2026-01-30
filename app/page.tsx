@@ -160,10 +160,11 @@ export default function Home() {
 
       {/* Footer Info - Hidden on mobile */}
       <div className="hidden sm:block absolute bottom-4 left-1/2 transform -translate-x-1/2 z-10">
-        <div className="glass-dark px-4 py-2 rounded-full text-xs text-gray-300 flex items-center space-x-4">
-          <span>🟢 {schools.filter(s => filteredCounties.length === 0 || filteredCounties.includes(s.county)).length} schools visible</span>
+        <div className="glass-dark px-4 py-2 rounded-full text-xl text-gray-300 flex items-center space-x-4">
           <span>•</span>
-          <span>⭐ {new Set(schools.filter(s => filteredCounties.length === 0 || filteredCounties.includes(s.county)).map(s => s.cluster_id)).size} centers active</span>
+          <span>Powered by AFOSI</span>
+          <span>•</span>
+          
         </div>
       </div>
     </main>
