@@ -98,7 +98,7 @@ git push -u origin main
 6. **Add Environment Variable:**
    - Click "Environment Variables"
    - Name: `NEXT_PUBLIC_GOOGLE_MAPS_API_KEY`
-   - Value: `AIzaSyCOHv-orP_3hbJWURDkVEq_cYK6U0Ii__M`
+   - Value: `your_google_maps_api_key_here`
    - Click "Add"
 7. **Click "Deploy"**
 

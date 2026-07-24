@@ -31,7 +31,7 @@ An interactive Next.js application showing 97 schools across 10 counties in Keny
 
 ### Prerequisites
 - Node.js 18+ installed
-- Google Maps API key (you already have: `AIzaSyCOHv-orP_3hbJWURDkVEq_cYK6U0Ii__M`)
+- A Google Maps API key ([create one here](https://console.cloud.google.com/google/maps-apis/credentials)) — keep it private and add HTTP referrer + API restrictions
 
 ### Installation
 
@@ -220,7 +220,7 @@ npm run build
 
 When deploying, set this environment variable:
 ```
-NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=AIzaSyCOHv-orP_3hbJWURDkVEq_cYK6U0Ii__M
+NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here
 ```
 
 ---
